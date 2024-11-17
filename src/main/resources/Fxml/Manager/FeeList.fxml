@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" prefHeight="30.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manager.payment_manager.Controllers.Manager.FeeListController">
+   <Label fx:id="id" prefWidth="50.0" text="ID">
+      <font>
+         <Font size="20.0" />
+      </font>
+      <HBox.margin>
+         <Insets left="20.0" />
+      </HBox.margin>
+      <padding>
+         <Insets right="20.0" />
+      </padding>
+   </Label>
+   <Line startY="30.0" strokeWidth="2.0" />
+   <Label fx:id="name" prefWidth="230.0" text="Họ tên chủ hộ">
+      <font>
+         <Font size="20.0" />
+      </font>
+      <HBox.margin>
+         <Insets left="20.0" right="20.0" />
+      </HBox.margin>
+   </Label>
+   <Line startY="30.0" strokeWidth="2.0" />
+   <Label fx:id="address" prefWidth="300.0" text="Địa chỉ" textAlignment="CENTER">
+      <font>
+         <Font size="20.0" />
+      </font>
+      <HBox.margin>
+         <Insets left="20.0" right="20.0" />
+      </HBox.margin>
+   </Label>
+   <Line startY="30.0" strokeWidth="2.0" />
+   <Label fx:id="status" prefWidth="200.0" text="Đã nộp">
+      <font>
+         <Font size="20.0" />
+      </font>
+      <padding>
+         <Insets left="20.0" />
+      </padding>
+   </Label>
+   <Line startY="30.0" strokeWidth="2.0" />
+   <Hyperlink fx:id="submit_hl" text="Nộp tiền">
+      <HBox.margin>
+         <Insets left="20.0" right="20.0" />
+      </HBox.margin>
+      <font>
+         <Font size="15.0" />
+      </font>
+   </Hyperlink>
+</HBox>

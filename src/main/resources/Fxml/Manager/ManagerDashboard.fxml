@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1150.0" styleClass="dashboard-container" stylesheets="@../../Styles/manager_dashboard.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.manager.payment_manager.Controllers.Manager.ManagerDashboardController">
+   <VBox layoutX="50.0" layoutY="50.0" prefHeight="105.0" prefWidth="534.0">
+      <Label text="TRANG CHỦ ">
+         <font>
+            <Font name="System Bold" size="50.0" />
+         </font>
+      </Label>
+      <Label text="Hệ thống quản lý thu phí, đóng góp">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label text="Các khoản phí hiện có">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+         <VBox.margin>
+            <Insets top="50.0" />
+         </VBox.margin>
+      </Label>
+   </VBox>
+   <VBox fx:id="fee_container" layoutX="100.0" layoutY="270.0" />
+   <Button fx:id="add_fee" layoutX="50.0" layoutY="700.0" mnemonicParsing="false" text="Thêm khoản thu">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Button>
+</AnchorPane>

@@ -1,0 +1,12 @@
+.managing-container {
+    -fx-background-color: #efefef;
+}
+
+.option {
+    -fx-background-radius: 10px;
+    -fx-border-radius: 20px;
+    -fx-background-color: #8d99ae;
+}
+.option:hover {
+    -fx-background-color: #2b2d42;
+}
